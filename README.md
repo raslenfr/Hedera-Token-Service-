@@ -1,6 +1,7 @@
 🪙 Hedera Token Service HTS + NFT 
 
-<table> <thead> <tr> <th>Resource</th> <th>Type</th> <th>Description</th> <th>Link</th> </tr> </thead> <tbody> <tr> <td><strong>GitHub Repository</strong></td> <td>Source Code</td> <td>Complete project source and documentation</td> <td><a href="https://github.com/your-username/hedera-hts-nft-demo">View on GitHub</a></td> </tr> <tr> <td><strong>Hedera Portal</strong></td> <td>Account Management</td> <td>Create your Hedera testnet account</td> <td><a href="https://portal.hedera.com">Access Hedera Portal</a></td> </tr> <tr> <td><strong>NFT.Storage</strong></td> <td>IPFS Service</td> <td>Generate API key for IPFS uploads</td> <td><a href="https://nft.storage">Get API Key</a></td> </tr> </tbody> </table>
+🎬 Live Demo & Professional Links
+<table> <thead> <tr> <th>Resource</th> <th>Type</th> <th>Description</th> <th>Link</th> </tr> </thead> <tbody> <tr> <td><strong>HashPack Wallet</strong></td> <td>Browser Extension</td> <td>Official Hedera wallet for Chrome</td> <td><a href="https://chromewebstore.google.com/detail/hashpack/gjagmgiddbbciopjhllkdnddhcglnemk?hl=fr">Install HashPack</a></td> </tr> <tr> <td><strong>Hedera Portal</strong></td> <td>Account Management</td> <td>Create your Hedera testnet account</td> <td><a href="https://portal.hedera.com">Access Hedera Portal</a></td> </tr> <tr> <td><strong>NFT.Storage</strong></td> <td>IPFS Service</td> <td>Generate API key for IPFS uploads</td> <td><a href="https://nft.storage">Get API Key</a></td> </tr> </tbody> </table>
 🌟 Project Resume
 Hedera Token Service (HTS) NFT Demo is an interactive educational platform showcasing the power of Hedera Hashgraph's tokenization capabilities. Built with modern Vue.js and containerized deployment, this demo provides hands-on experience with both fungible and non-fungible tokens on the enterprise-grade Hedera network.
 
@@ -16,30 +17,7 @@ Hedera Token Service (HTS) NFT Demo is an interactive educational platform showc
 <table> <thead> <tr> <th>Step</th> <th>Component</th> <th>Action</th> <th>Technology</th> </tr> </thead> <tbody> <tr> <td><strong>1</strong></td> <td>Vue.js UI</td> <td>User triggers token operation</td> <td>Vue 3 Composition API</td> </tr> <tr> <td><strong>2</strong></td> <td>Hedera JS SDK</td> <td>Construct and sign transaction</td> <td>@hashgraph/sdk</td> </tr> <tr> <td><strong>3</strong></td> <td>Hedera Testnet</td> <td>Consensus and finality</td> <td>Hashgraph DAG</td> </tr> <tr> <td><strong>4</strong></td> <td>IPFS Storage</td> <td>NFT metadata upload (optional)</td> <td>NFT.Storage API</td> </tr> <tr> <td><strong>5</strong></td> <td>Mirror Nodes</td> <td>Transaction query and verification</td> <td>REST API endpoints</td> </tr> </tbody> </table>
 🏗️ System Architecture
 🧱 Component Architecture
-
-┌──────────────────────────┐
-│       Vue.js UI          │
-│  (Token/NFT Dashboard)   │
-└────────────┬─────────────┘
-              │ HTTP Requests
-              ▼
-┌──────────────────────────┐
-│  Hedera JS SDK Layer     │
-│  (Transaction Builder)   │
-└────────────┬─────────────┘
-              │ gRPC/Protobuf
-              ▼
-┌──────────────────────────┐
-│   Hedera Testnet Nodes   │
-│ (Hashgraph Consensus)    │
-└────────────┬─────────────┘
-              │ Consensus
-              ▼
-┌──────────────────────────┐
-│   IPFS / NFT.Storage     │
-│ (Off-chain Metadata)     │
-└──────────────────────────┘
-
+<div align="center"><table style="border: none; background: transparent;"> <tr> <td style="text-align: center; border: 2px solid #00C2B2; padding: 15px; border-radius: 8px; background: #f8ffff;"> <strong>Vue.js UI</strong><br/> <em>Token/NFT Dashboard</em> </td> </tr> <tr><td style="text-align: center;">↓ HTTP Requests</td></tr> <tr> <td style="text-align: center; border: 2px solid #00C2B2; padding: 15px; border-radius: 8px; background: #f8ffff;"> <strong>Hedera JS SDK Layer</strong><br/> <em>Transaction Builder</em> </td> </tr> <tr><td style="text-align: center;">↓ gRPC/Protobuf</td></tr> <tr> <td style="text-align: center; border: 2px solid #00C2B2; padding: 15px; border-radius: 8px; background: #f8ffff;"> <strong>Hedera Testnet Nodes</strong><br/> <em>Hashgraph Consensus</em> </td> </tr> <tr><td style="text-align: center;">↓ Consensus</td></tr> <tr> <td style="text-align: center; border: 2px solid #00C2B2; padding: 15px; border-radius: 8px; background: #f8ffff;"> <strong>IPFS / NFT.Storage</strong><br/> <em>Off-chain Metadata</em> </td> </tr> </table></div>
 ⚙️ Technical Stack
 <table> <thead> <tr> <th>Layer</th> <th>Technology</th> <th>Purpose</th> <th>Key Features</th> </tr> </thead> <tbody> <tr> <td><strong>Presentation</strong></td> <td>Vue.js 3 + Vite</td> <td>Modern reactive user interface</td> <td>Composition API, Vue Router, Reactive state</td> </tr> <tr> <td><strong>Blockchain</strong></td> <td>Hedera JavaScript SDK</td> <td>Direct Hedera network interaction</td> <td>Token operations, Account management</td> </tr> <tr> <td><strong>Consensus</strong></td> <td>Hedera Hashgraph</td> <td>Distributed ledger consensus</td> <td>aBFT, Gossip protocol, DAG structure</td> </tr> <tr> <td><strong>Storage</strong></td> <td>IPFS via NFT.Storage</td> <td>Decentralized NFT metadata</td> <td>Content addressing, Permanent storage</td> </tr> <tr> <td><strong>Deployment</strong></td> <td>Docker + Docker Compose</td> <td>Containerized application</td> <td>Environment consistency, Easy deployment</td> </tr> </tbody> </table>
 ⚙️ Environment Configuration
@@ -71,7 +49,7 @@ Hedera Token Service (HTS) NFT Demo is an interactive educational platform showc
 <table> <thead> <tr> <th>Category</th> <th>Details</th> <th>Notes</th> </tr> </thead> <tbody> <tr> <td><strong>License</strong></td> <td>Apache License 2.0</td> <td>Open source with commercial-friendly terms</td> </tr> <tr> <td><strong>Intended Use</strong></td> <td>Educational & Demonstration</td> <td>Not for production financial applications</td> </tr> <tr> <td><strong>Network</strong></td> <td>Hedera Testnet Only</td> <td>Real ℏ required for mainnet deployment</td> </tr> <tr> <td><strong>Security Notice</strong></td> <td>Educational Purpose</td> <td>Use testnet accounts only</td> </tr> </tbody> </table>
 👤 Developer Information
 🎓 About the Developer
-<table> <thead> <tr> <th>Category</th> <th>Details</th> <th>Focus Areas</th> </tr> </thead> <tbody> <tr> <td><strong>Developer</strong></td> <td>Tarek Ayari</td> <td>Software Engineering Student</td> </tr> <tr> <td><strong>Institution</strong></td> <td>ESPIT Tunis</td> <td>Higher Education in Technology</td> </tr> <tr> <td><strong>Specializations</strong></td> <td>Full-stack Development</td> <td>Vue.js, Blockchain, System Architecture</td> </tr> <tr> <td><strong>Expertise</strong></td> <td>Blockchain Integration</td> <td>Hedera Hashgraph, Tokenization, DLT</td> </tr> <tr> <td><strong>Professional Focus</strong></td> <td>Hedera Integrator</td> <td>Enterprise DLT solutions</td> </tr> </tbody> </table>
+<table> <thead> <tr> <th>Category</th> <th>Details</th> <th>Focus Areas</th> </tr> </thead> <tbody> <tr> <td><strong>Developer</strong></td> <td>Raslen Ferchichi</td> <td>Software Engineering Student</td> </tr> <tr> <td><strong>Institution</strong></td> <td>ESPIT Tunis</td> <td>Higher Education in Technology</td> </tr> <tr> <td><strong>Specializations</strong></td> <td>Full-stack Development</td> <td>Vue.js, Blockchain, System Architecture</td> </tr> <tr> <td><strong>Expertise</strong></td> <td>Blockchain Integration</td> <td>Hedera Hashgraph, Tokenization, DLT</td> </tr> <tr> <td><strong>Professional Focus</strong></td> <td>Hedera Integrator</td> <td>Enterprise DLT solutions</td> </tr> </tbody> </table>
 🎯 Project Vision
 This Hedera Token Service NFT Demo bridges the gap between theoretical distributed ledger technology and practical tokenization implementation. By showcasing Hedera's enterprise-grade capabilities through an intuitive interface, we empower developers and businesses to explore the future of digital assets on a sustainable, high-performance platform.
 
@@ -95,7 +73,7 @@ For Educators: Distributed ledger technology teaching tool
 
 For Hedera Ecosystem: Community growth and developer onboarding
 
-Built with ❤️ for the Hedera community by Tarek Ayari
+Built with ❤️ for the Hedera community by Raslen Ferchichi
 
 <div align="center">
 🔗 Essential Resources
