@@ -1,3 +1,45 @@
+🪙 Hedera Token Service HTS + NFT 
+
+<table> <thead> <tr> <th>Resource</th> <th>Type</th> <th>Description</th> <th>Link</th> </tr> </thead> <tbody> <tr> <td><strong>GitHub Repository</strong></td> <td>Source Code</td> <td>Complete project source and documentation</td> <td><a href="https://github.com/your-username/hedera-hts-nft-demo">View on GitHub</a></td> </tr> <tr> <td><strong>Hedera Portal</strong></td> <td>Account Management</td> <td>Create your Hedera testnet account</td> <td><a href="https://portal.hedera.com">Access Hedera Portal</a></td> </tr> <tr> <td><strong>NFT.Storage</strong></td> <td>IPFS Service</td> <td>Generate API key for IPFS uploads</td> <td><a href="https://nft.storage">Get API Key</a></td> </tr> </tbody> </table>
+🌟 Project Resume
+Hedera Token Service (HTS) NFT Demo is an interactive educational platform showcasing the power of Hedera Hashgraph's tokenization capabilities. Built with modern Vue.js and containerized deployment, this demo provides hands-on experience with both fungible and non-fungible tokens on the enterprise-grade Hedera network.
+
+<table> <thead> <tr> <th>Aspect</th> <th>Description</th> <th>Value Proposition</th> </tr> </thead> <tbody> <tr> <td><strong>Project Type</strong></td> <td>Educational Blockchain Demo</td> <td>Practical Hedera Token Service experience</td> </tr> <tr> <td><strong>Primary Purpose</strong></td> <td>HTS & NFT Operations Showcase</td> <td>Comprehensive token lifecycle demonstration</td> </tr> <tr> <td><strong>Core Technology</strong></td> <td>Vue.js + Hedera JS SDK + IPFS</td> <td>Modern full-stack DLT integration</td> </tr> <tr> <td><strong>Network</strong></td> <td>Hedera Testnet</td> <td>Enterprise-grade distributed ledger</td> </tr> <tr> <td><strong>Key Innovation</strong></td> <td>Hashgraph Consensus Visualization</td> <td>Next-generation DLT technology showcase</td> </tr> </tbody> </table>
+⚛️ Why Hedera Hashgraph?
+🏗️ Next-Generation Distributed Ledger Technology
+<table> <thead> <tr> <th>Feature</th> <th>Technology</th> <th>Advantage</th> <th>Impact</th> </tr> </thead> <tbody> <tr> <td><strong>Consensus Algorithm</strong></td> <td>Directed Acyclic Graph (DAG)</td> <td>No blocks, no miners</td> <td>Eliminates mining centralization</td> </tr> <tr> <td><strong>Security Model</strong></td> <td>Asynchronous Byzantine Fault Tolerance</td> <td>Highest security level</td> <td>Maximum resistance to malicious actors</td> </tr> <tr> <td><strong>Transaction Finality</strong></td> <td>Gossip-about-Gossip Protocol</td> <td>3-5 second finality</td> <td>No forks, no rollbacks</td> </tr> <tr> <td><strong>Energy Efficiency</strong></td> <td>Hashgraph Consensus</td> <td>Low energy consumption</td> <td>Sustainable tokenization solution</td> </tr> <tr> <td><strong>Cost Predictability</strong></td> <td>Deterministic Fee Structure</td> <td>Predictable gas fees</td> <td>Enterprise budget planning</td> </tr> </tbody> </table>
+🧩 Project Overview
+💰 Core HTS Capabilities
+<table> <thead> <tr> <th>Feature</th> <th>Icon</th> <th>Description</th> <th>Technical Implementation</th> </tr> </thead> <tbody> <tr> <td><strong>Token Creation</strong></td> <td>🪙</td> <td>Create fungible or non-fungible tokens on Hedera testnet</td> <td>HederaTokenCreateTransaction</td> </tr> <tr> <td><strong>Key Management</strong></td> <td>🔑</td> <td>Assign Admin, KYC, Freeze, and Wipe keys</td> <td>Multi-key token configuration</td> </tr> <tr> <td><strong>Token Association</strong></td> <td>🧾</td> <td>Associate/dissociate accounts from specific tokens</td> <td>TokenAssociateTransaction</td> </tr> <tr> <td><strong>Mint / Burn</strong></td> <td>♻️</td> <td>Dynamically mint new tokens or burn existing supply</td> <td>TokenMintTransaction / TokenBurnTransaction</td> </tr> <tr> <td><strong>Transfer Operations</strong></td> <td>🔁</td> <td>Transfer tokens between Hedera accounts</td> <td>TransferTransaction</td> </tr> <tr> <td><strong>NFT Metadata</strong></td> <td>🧊</td> <td>Store image & metadata off-chain using IPFS</td> <td>NFT.Storage API integration</td> </tr> <tr> <td><strong>Marketplace Simulation</strong></td> <td>🧠</td> <td>Secure token exchange via escrow-like transfers</td> <td>Atomic swap transactions</td> </tr> </tbody> </table>
+🧠 How It Works
+🔄 System Workflow
+<table> <thead> <tr> <th>Step</th> <th>Component</th> <th>Action</th> <th>Technology</th> </tr> </thead> <tbody> <tr> <td><strong>1</strong></td> <td>Vue.js UI</td> <td>User triggers token operation</td> <td>Vue 3 Composition API</td> </tr> <tr> <td><strong>2</strong></td> <td>Hedera JS SDK</td> <td>Construct and sign transaction</td> <td>@hashgraph/sdk</td> </tr> <tr> <td><strong>3</strong></td> <td>Hedera Testnet</td> <td>Consensus and finality</td> <td>Hashgraph DAG</td> </tr> <tr> <td><strong>4</strong></td> <td>IPFS Storage</td> <td>NFT metadata upload (optional)</td> <td>NFT.Storage API</td> </tr> <tr> <td><strong>5</strong></td> <td>Mirror Nodes</td> <td>Transaction query and verification</td> <td>REST API endpoints</td> </tr> </tbody> </table>
+🏗️ System Architecture
+🧱 Component Architecture
+
+┌──────────────────────────┐
+│       Vue.js UI          │
+│  (Token/NFT Dashboard)   │
+└────────────┬─────────────┘
+              │ HTTP Requests
+              ▼
+┌──────────────────────────┐
+│  Hedera JS SDK Layer     │
+│  (Transaction Builder)   │
+└────────────┬─────────────┘
+              │ gRPC/Protobuf
+              ▼
+┌──────────────────────────┐
+│   Hedera Testnet Nodes   │
+│ (Hashgraph Consensus)    │
+└────────────┬─────────────┘
+              │ Consensus
+              ▼
+┌──────────────────────────┐
+│   IPFS / NFT.Storage     │
+│ (Off-chain Metadata)     │
+└──────────────────────────┘
+
 ⚙️ Technical Stack
 <table> <thead> <tr> <th>Layer</th> <th>Technology</th> <th>Purpose</th> <th>Key Features</th> </tr> </thead> <tbody> <tr> <td><strong>Presentation</strong></td> <td>Vue.js 3 + Vite</td> <td>Modern reactive user interface</td> <td>Composition API, Vue Router, Reactive state</td> </tr> <tr> <td><strong>Blockchain</strong></td> <td>Hedera JavaScript SDK</td> <td>Direct Hedera network interaction</td> <td>Token operations, Account management</td> </tr> <tr> <td><strong>Consensus</strong></td> <td>Hedera Hashgraph</td> <td>Distributed ledger consensus</td> <td>aBFT, Gossip protocol, DAG structure</td> </tr> <tr> <td><strong>Storage</strong></td> <td>IPFS via NFT.Storage</td> <td>Decentralized NFT metadata</td> <td>Content addressing, Permanent storage</td> </tr> <tr> <td><strong>Deployment</strong></td> <td>Docker + Docker Compose</td> <td>Containerized application</td> <td>Environment consistency, Easy deployment</td> </tr> </tbody> </table>
 ⚙️ Environment Configuration
