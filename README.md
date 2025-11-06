@@ -1,5 +1,6 @@
-🪙 Hedera Token Service NFT 
-🎬 Live Demo & Professional Links
+🪙 Hedera Token Service + NFT 
+
+ Professional Links
 <table> <thead> <tr> <th>Resource</th> <th>Type</th> <th>Description</th> <th>Link</th> </tr> </thead> <tbody> <tr> <td><strong>HashPack Wallet</strong></td> <td>Browser Extension</td> <td>Official Hedera wallet for Chrome</td> <td><a href="https://chromewebstore.google.com/detail/hashpack/gjagmgiddbbciopjhllkdnddhcglnemk?hl=fr">Install HashPack</a></td> </tr> <tr> <td><strong>Hedera Portal</strong></td> <td>Account Management</td> <td>Create your Hedera testnet account</td> <td><a href="https://portal.hedera.com">Access Hedera Portal</a></td> </tr> <tr> <td><strong>NFT.Storage</strong></td> <td>IPFS Service</td> <td>Generate API key for IPFS uploads</td> <td><a href="https://nft.storage">Get API Key</a></td> </tr> </tbody> </table>
 
 🌟 Project Resume
